@@ -10,7 +10,7 @@ const js = {
 const config = {
     entry: ['regenerator-runtime/runtime', './src/index'],
     target: 'node',
-    output: { path: __dirname + '/dist', filename: 'index.js' },
+    output: { path: __dirname + '/dist', filename: 'index.js', libraryTarget: 'commonjs2' },
     module: { rules: [js] },
     stats: { children: false },
     externals: exclude

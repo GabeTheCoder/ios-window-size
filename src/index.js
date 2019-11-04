@@ -17,6 +17,7 @@ const calculateHeight = () => {
 
 const update = () => calculateHeight();
 
-window.addEventListener('load', update);
-window.addEventListener('resize', update);
-
+export default () => {
+    window.addEventListener('load', update);
+    window.addEventListener('resize', update);
+};

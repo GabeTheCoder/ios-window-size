@@ -1,6 +1,6 @@
 {
   "name": "ios-window-size",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Total WIP maybe don't use this",
   "main": "index.js",
   "repository": {
@@ -27,4 +27,3 @@
     "regenerator-runtime": "^0.13.3"
   }
 }
-
